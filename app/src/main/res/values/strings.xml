@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheTimeSki</string>
+
+    <string-array name="array_cidades">
+        <item>Bariloche</item>
+        <item>Vale nevado</item>
+        <item>Osorno</item>
+    </string-array>
+</resources>

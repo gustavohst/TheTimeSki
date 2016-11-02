@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    android:padding="10dp"
+    tools:context="com.gustavotenorio.thetimeski.DetalheActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="5"
+    android:src="@drawable/ic_video_play" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:padding="5dp"
+        android:background="#F4F4F4" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#666666"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalhes a respeito da cidade..."
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#666666"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26/10/2016"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/botaoUrl"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Executar video"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    
+</LinearLayout>
