@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //teste
         ListView lista = (ListView) findViewById(R.id.lista);
         //Recebe array de cidades
         adapter = new ItemVideoAdapter(this, new ArrayList<ItemVideo>());
